@@ -13,7 +13,7 @@
 
         <TextView
             android:id="@+id/bf_txt1"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:text="BREAKFAST"
             android:textSize="25dp"
