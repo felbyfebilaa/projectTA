@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile"
+    android:background="@drawable/background"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/p_gambar1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/user" />
+
+        <Button
+            android:id="@+id/p_txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:width="300dp"
+            android:layout_below="@id/p_gambar1"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="EDIT PROFILE"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/p_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:width="300dp"
+            android:layout_below="@id/p_txt1"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="LOG OUT"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginTop="30dp"/>
+    </RelativeLayout>
+</ScrollView>

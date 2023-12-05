@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_1" type="id" />
+    <item name="btn_2" type="id" />
+    <item name="txtregister" type="id" />
+    <item name="btn1" type="id" />
+    <item name="txt_register" type="id" />
+</resources>

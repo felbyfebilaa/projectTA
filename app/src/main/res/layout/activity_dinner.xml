@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dinner"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dn_txt1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="DINNER"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/pink"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:id="@+id/dn_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dn_txt1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/sumurtahu"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/dn_txt2"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dn_gambar1"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="SUMUR TAHU"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/dn_gambar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dn_txt2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/gado_gado"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/dn_txt3"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dn_gambar2"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="GADO-GADO"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/dn_gambar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dn_txt3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/salad"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/dn_txt4"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dn_gambar3"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="SALAD"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/dn_gambar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dn_txt4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/ygpisang"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/dn_txt5"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dn_gambar4"
+            android:text="PISANG YOGURT"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</ScrollView>

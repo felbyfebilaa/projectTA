@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/user"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Hello, Dear!"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/tagline"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Fuel Your Body, Nourish Your Soul:
+Discover Healthy Delights!"
+            android:textSize="20dp"
+            android:layout_below="@id/hello"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/home_txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tagline"
+            android:gravity="center_horizontal"
+            android:textColor="@color/pink"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginTop="80dp" />
+
+        <Button
+            android:id="@+id/home_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="300dp"
+            android:padding="30dp"
+            android:layout_below="@id/home_txt1"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="BREAKFAST"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/home_txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="300dp"
+            android:padding="30dp"
+            android:layout_below="@id/home_txt2"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="LUNCH"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/home_txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/home_txt3"
+            android:width="300dp"
+            android:padding="30dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="DINNER"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            tools:ignore="TextSizeCheck"
+            android:layout_marginTop="30dp"/>
+    </RelativeLayout>
+</ScrollView>

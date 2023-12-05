@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".breakfast"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/bf_txt1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="BREAKFAST"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/pink"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:id="@+id/bf_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bf_txt1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/sup"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/bf_txt2"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bf_gambar1"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="SUP"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/bf_gambar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bf_txt2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/outmeal"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/bf_txt3"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bf_gambar2"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="OATMEAL PANGGANG BLUEBERRY"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/bf_gambar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bf_txt3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/omelet"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/bf_txt4"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bf_gambar3"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="OMELET"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/bf_gambar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bf_txt4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/kacangijo"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/bf_txt5"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bf_gambar4"
+            android:text="BUBUR KACANG IJO"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</ScrollView>
