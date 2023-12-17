@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deskripsi_pisangyogurt"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/dpy_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/ygpisang"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <TextView
+            android:id="@+id/dpy_txt1"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/dpy_gambar1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="PISANG YOGURT"
+            android:padding="8dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dpy_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpy_txt1"
+            android:layout_marginTop="20dp"
+            android:text="DESKRIPSI"
+            android:layout_marginLeft="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"/>
+
+        <TextView
+            android:id="@+id/dpy_text3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpy_txt2"
+            android:text="Pisang Yogurt adalah kombinasi yang lezat dan sehat, menyajikan protein dari yogurt, serat dari pisang. "
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:id="@+id/dpy_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpy_text3"
+            android:text="RESEP"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"/>
+
+        <TextView
+            android:id="@+id/dpy_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpy_text4"
+            android:paddingLeft="15dp"
+            android:text="- 1 buah pisang"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dpy_text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpy_text5"
+            android:paddingLeft="15dp"
+            android:text="- 70ml cimory squeeze yogurt"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dpy_text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpy_text6"
+            android:layout_marginLeft="250dp"
+            android:text="Kalori 175"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/dpy_text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpy_text7"
+            android:layout_marginLeft="250dp"
+            android:text="Karbohidrat 38.95g"
+            />
+
+        <TextView
+            android:id="@+id/dpy_text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpy_text8"
+            android:layout_marginLeft="250dp"
+            android:text="Lemak 2.39g"
+            />
+
+        <TextView
+            android:id="@+id/dpy_text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpy_text9"
+            android:layout_marginLeft="250dp"
+            android:text="Protein 3.29g"
+            />
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deskripsi_sup"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/ds_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/sup"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <TextView
+            android:id="@+id/ds_txt1"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/ds_gambar1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="SUP"
+            android:padding="8dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/ds_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ds_txt1"
+            android:layout_marginTop="20dp"
+            android:text="DESKRIPSI"
+            android:layout_marginLeft="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"/>
+
+        <TextView
+            android:id="@+id/ds_text3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ds_txt2"
+            android:text="Sup sayuran dengan kuah bening merupakan salah satu menu makanan sehat yang cocok disantap pagi hari."
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:id="@+id/ds_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ds_text3"
+            android:text="RESEP"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"/>
+
+        <TextView
+            android:id="@+id/ds_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ds_text4"
+            android:paddingLeft="15dp"
+            android:text="- 1 buah kentang"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/ds_text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ds_text5"
+            android:paddingLeft="15dp"
+            android:text="- 1 buah wortel"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/ds_text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ds_text6"
+            android:paddingLeft="15dp"
+            android:text="- 1 buah jagung manis"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/ds_text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ds_text7"
+            android:paddingLeft="15dp"
+            android:text="- 1 buah labu siam"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/ds_text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ds_text8"
+            android:paddingLeft="15dp"
+            android:text="- 1/2 sdt minyak makan"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/ds_text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ds_text9"
+            android:paddingLeft="15dp"
+            android:text="- buncis secukupnya"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/ds_text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ds_text10"
+            android:paddingLeft="15dp"
+            android:text="- garam, kaldu jamur secukupnya"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/ds_text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ds_text11"
+            android:paddingLeft="15dp"
+            android:text="- air secukupnya"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/ds_text13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ds_text12"
+            android:layout_marginLeft="250dp"
+            android:text="Kalori 72"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/ds_text14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ds_text13"
+            android:layout_marginLeft="250dp"
+            android:text="Karbohidrat 11,98g"
+            />
+
+        <TextView
+            android:id="@+id/ds_text15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ds_text14"
+            android:layout_marginLeft="250dp"
+            android:text="Lemak 1,93g"
+            />
+
+        <TextView
+            android:id="@+id/ds_text16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ds_text15"
+            android:layout_marginLeft="250dp"
+            android:text="Protein 2,12g"
+            />
+    </RelativeLayout>
+
+</ScrollView>

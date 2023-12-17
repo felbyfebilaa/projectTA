@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deskripsi_chickensteak"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/dcs_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/steak"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <TextView
+            android:id="@+id/dcs_txt1"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/dcs_gambar1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="CHICKEN STEAK"
+            android:padding="8dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dcs_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_txt1"
+            android:layout_marginTop="20dp"
+            android:text="DESKRIPSI"
+            android:layout_marginLeft="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"/>
+
+        <TextView
+            android:id="@+id/dcs_text3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_txt2"
+            android:text="Chicken steak adalah hidangan yang memikat selera, sempurna untuk dinikmati di siang hari. Potongan daging ayam yang empuk dan lezat, dipanggang hingga kecokelatan, disajikan dengan saus yang melimpah dan sayuran segar sebagai pelengkap."
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:id="@+id/dcs_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text3"
+            android:text="RESEP"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"/>
+
+        <TextView
+            android:id="@+id/dcs_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text4"
+            android:paddingLeft="15dp"
+            android:text="- 1 buah dada ayam, fillet"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dcs_text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text5"
+            android:paddingLeft="15dp"
+            android:text="- Garam dan merica secukupnya"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dcs_text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text6"
+            android:paddingLeft="15dp"
+            android:text="- 1 sendok makan minyak zaitun"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dcs_text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text7"
+            android:paddingLeft="15dp"
+            android:text="- 2 sendok makan saus BBQ"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dcs_text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text8"
+            android:paddingLeft="15dp"
+            android:text="- 1 sendok makan saus tomat"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dcs_text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text9"
+            android:paddingLeft="15dp"
+            android:text="- 1 sendok makan kecap manis"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dcs_text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text10"
+            android:paddingLeft="15dp"
+            android:text="- 1 sendok makan mentega"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dcs_text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text11"
+            android:paddingLeft="15dp"
+            android:text="- 1 sendok makan tepung maizena"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dcs_text13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text12"
+            android:paddingLeft="15dp"
+            android:text="- Minyak untuk menumis"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dcs_text14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text13"
+            android:paddingLeft="15dp"
+            android:text="- 1 buah wortel"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dcs_text15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text14"
+            android:paddingLeft="15dp"
+            android:text="- 1 buah kentang"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dcs_text16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text15"
+            android:paddingLeft="15dp"
+            android:text="- 1 buah kacang panjang"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dcs_text17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text16"
+            android:paddingLeft="15dp"
+            android:text="- 1 buah jagung"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dcs_text18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text17"
+            android:layout_marginLeft="250dp"
+            android:text="Kalori 328"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/dcs_text19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text18"
+            android:layout_marginLeft="250dp"
+            android:text="Karbohidrat 85.22g"
+            />
+
+        <TextView
+            android:id="@+id/dcs_text20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text19"
+            android:layout_marginLeft="250dp"
+            android:text="Lemak 14.68g"
+            />
+
+        <TextView
+            android:id="@+id/dcs_text21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dcs_text20"
+            android:layout_marginLeft="250dp"
+            android:text="Protein 4.06"
+            />
+    </RelativeLayout>
+
+</ScrollView>

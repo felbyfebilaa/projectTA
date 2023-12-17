@@ -13,6 +13,42 @@
         android:theme="@style/Theme.DailyHealthEats"
         tools:targetApi="31">
         <activity
+            android:name=".deskripsi_ayamteriyaki"
+            android:exported="false" />
+        <activity
+            android:name=".deskripsi_pisangyogurt"
+            android:exported="false" />
+        <activity
+            android:name=".deskripsi_salad"
+            android:exported="false" />
+        <activity
+            android:name=".deskripsi_posu"
+            android:exported="false" />
+        <activity
+            android:name=".deskripsi_steaktempe"
+            android:exported="false" />
+        <activity
+            android:name=".deskripsi_chickensteak"
+            android:exported="false" />
+        <activity
+            android:name=".deskripsi_sayurasem"
+            android:exported="false" />
+        <activity
+            android:name=".deskripsi_capcay"
+            android:exported="false" />
+        <activity
+            android:name=".deskripsi_kaijo"
+            android:exported="false" />
+        <activity
+            android:name=".deskripsi_omelet"
+            android:exported="false" />
+        <activity
+            android:name=".deskripsi_telurrebus"
+            android:exported="false" />
+        <activity
+            android:name=".deskripsi_sup"
+            android:exported="false" />
+        <activity
             android:name=".edit_profile"
             android:exported="false" />
         <activity

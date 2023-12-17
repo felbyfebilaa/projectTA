@@ -32,7 +32,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:background="@drawable/button_shape"
-            android:src="@drawable/sumurtahu"
+            android:src="@drawable/ayamteriyakiselada"
             tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
@@ -43,7 +43,7 @@
             android:layout_centerHorizontal="true"
             android:backgroundTint="@color/pink"
             android:fontFamily="sans-serif-condensed-medium"
-            android:text="SUMUR TAHU"
+            android:text="AYAM TERIYAKI SELADA"
             android:textColor="@color/white"
             android:textSize="15dp"
             tools:ignore="TextSizeCheck" />
@@ -56,7 +56,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:background="@drawable/button_shape"
-            android:src="@drawable/gado_gado"
+            android:src="@drawable/pocok"
             tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
@@ -67,7 +67,7 @@
             android:layout_centerHorizontal="true"
             android:backgroundTint="@color/pink"
             android:fontFamily="sans-serif-condensed-medium"
-            android:text="GADO-GADO"
+            android:text="ALPUKAT SUSU"
             android:textColor="@color/white"
             android:textSize="15dp"
             tools:ignore="TextSizeCheck" />
@@ -80,7 +80,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:background="@drawable/button_shape"
-            android:src="@drawable/salad"
+            android:src="@drawable/saladd"
             tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
@@ -91,7 +91,7 @@
             android:layout_centerHorizontal="true"
             android:backgroundTint="@color/pink"
             android:fontFamily="sans-serif-condensed-medium"
-            android:text="SALAD"
+            android:text="SALAD BUAH"
             android:textColor="@color/white"
             android:textSize="15dp"
             tools:ignore="TextSizeCheck" />
@@ -112,12 +112,13 @@
             android:layout_width="305dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/dn_gambar4"
-            android:text="PISANG YOGURT"
-            android:textSize="15dp"
-            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
             android:backgroundTint="@color/pink"
             android:fontFamily="sans-serif-condensed-medium"
-            android:layout_centerHorizontal="true"/>
+            android:text="PISANG YOGURT"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
 
     </RelativeLayout>
 

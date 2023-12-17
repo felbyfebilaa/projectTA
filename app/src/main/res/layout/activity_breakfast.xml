@@ -56,7 +56,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:background="@drawable/button_shape"
-            android:src="@drawable/outmeal"
+            android:src="@drawable/telur_rebus"
             tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
@@ -67,7 +67,7 @@
             android:layout_centerHorizontal="true"
             android:backgroundTint="@color/pink"
             android:fontFamily="sans-serif-condensed-medium"
-            android:text="OATMEAL PANGGANG BLUEBERRY"
+            android:text="TELUR REBUS"
             android:textColor="@color/white"
             android:textSize="15dp"
             tools:ignore="TextSizeCheck" />
@@ -112,12 +112,13 @@
             android:layout_width="305dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/bf_gambar4"
-            android:text="BUBUR KACANG IJO"
-            android:textSize="15dp"
-            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
             android:backgroundTint="@color/pink"
             android:fontFamily="sans-serif-condensed-medium"
-            android:layout_centerHorizontal="true"/>
+            android:text="BUBUR KACANG IJO"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
 
     </RelativeLayout>
 </ScrollView>

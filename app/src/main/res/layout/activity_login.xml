@@ -42,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_below="@id/L_txt1"
+        android:layout_below="@id/L_txt2"
         android:padding="50dp"
         android:layout_marginTop="10dp"
         android:id="@+id/ly_2">
@@ -51,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:background="@drawable/button_shape"
-            android:hint="Username"
+            android:hint ="Username"
             android:textColorHint="@color/white"
             android:paddingLeft="20dp"
             android:layout_marginTop="15dp"

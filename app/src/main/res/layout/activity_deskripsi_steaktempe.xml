@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deskripsi_steaktempe"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/dst_gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_shape"
+            android:src="@drawable/steaktempe"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <TextView
+            android:id="@+id/dst_txt1"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/dst_gambar1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="STEAK TEMPE"
+            android:padding="8dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dst_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dst_txt1"
+            android:layout_marginTop="20dp"
+            android:text="DESKRIPSI"
+            android:layout_marginLeft="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"/>
+
+        <TextView
+            android:id="@+id/dst_text3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dst_txt2"
+            android:text="Steak tempe adalah pilihan vegetarian yang kaya protein dan rendah lemak. Dengan cita rasa rempah yang khas, hidangan ini menyajikan kelezatan yang memuaskan dan gizi yang seimbang."
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:id="@+id/dst_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dst_text3"
+            android:text="RESEP"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"/>
+
+        <TextView
+            android:id="@+id/dst_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dst_text4"
+            android:paddingLeft="15dp"
+            android:text="- 1 blok tempe"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dst_text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dst_text5"
+            android:paddingLeft="15dp"
+            android:text="- 2 sendok makan kecap manis"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dst_text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dst_text6"
+            android:paddingLeft="15dp"
+            android:text="- 1 sendok makan saus tiram"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dst_text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dst_text7"
+            android:paddingLeft="15dp"
+            android:text="- 1 sendok makan saus tomat"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dst_text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dst_text8"
+            android:paddingLeft="15dp"
+            android:text="- 1 sendok teh bubuk bawang putih"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dst_text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dst_text9"
+            android:paddingLeft="15dp"
+            android:text="- Garam dan merica secukupnya"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dst_text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dst_text10"
+            android:paddingLeft="15dp"
+            android:text="- Minyak untuk menumis"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/dst_text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dst_text11"
+            android:layout_marginLeft="250dp"
+            android:text="Kalori 192"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/dst_text13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dst_text12"
+            android:layout_marginLeft="250dp"
+            android:text="Karbohidrat 20.79g"
+            />
+
+        <TextView
+            android:id="@+id/dst_text14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dst_text13"
+            android:layout_marginLeft="250dp"
+            android:text="Lemak 11.32g"
+            />
+
+        <TextView
+            android:id="@+id/dst_text15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dst_text14"
+            android:layout_marginLeft="250dp"
+            android:text="Protein 2.46"
+            />
+    </RelativeLayout>
+
+</ScrollView>
