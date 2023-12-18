@@ -13,7 +13,7 @@ class edit_profile : AppCompatActivity() {
         buttonedit = findViewById(R.id.ed_btn)
 
         buttonedit.setOnClickListener{
-            val move = Intent(this@edit_profile, profile::class.java)
+            val move = Intent(this@edit_profile, login::class.java)
             startActivity(move)
         }
     }
